@@ -15,4 +15,9 @@ public class ViewController {
 	public String pontosturisticos() {
 		return "pontosturisticos";
 	}
+	
+	@RequestMapping("/sobre")
+	public String sobre() {
+		return "sobre";
+	}
 }
