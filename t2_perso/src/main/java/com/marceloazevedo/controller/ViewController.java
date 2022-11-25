@@ -10,4 +10,9 @@ public class ViewController {
 	public String homeApp() {
 		return "index";
 	}
+	
+	@RequestMapping("/pontosturisticos")
+	public String pontosturisticos() {
+		return "pontosturisticos";
+	}
 }
